@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--text view for heading-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/idTVHeader"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:gravity="center_horizontal"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:text="Link Sync - Youtube Video Downloader"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/purple_700"-->
+    <!--        android:textSize="18sp" />-->
+
+
+    <!--edit text for user name-->
+
+    <!--button to register our new user-->
+
+    <ImageView
+        android:id="@+id/banner_image"
+        android:layout_width="379dp"
+        android:layout_height="226dp"
+
+        android:layout_marginTop="4dp"
+        android:src="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idURLlink"
+        android:layout_width="385dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="424dp"
+        android:hint="Enter YouTube URL"
+        android:inputType="textUri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/idBtnLogin"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="320dp"
+        android:text="Download"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
