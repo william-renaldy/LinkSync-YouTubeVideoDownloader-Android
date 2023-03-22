@@ -1,3 +1,3 @@
-"# LinkSync-YouTubeVideoDownloader-AndroidApp" 
-"# LinkSync-YouTubeVideoDownloader-Android" 
-"# LinkSync-YouTubeVideoDownloader-Android" 
+#LinkSync-YouTubeVideoDownloader
+
+Android app that downloads a YouTube video
